@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me </title>
+    <style type="text/css">
+        *{
+            text-decoration: none;
+        }
+        .navbar{
+            background:  rgb(63, 63, 243); padding-right: 15px;padding-left: 15px;
+        }
+        .navdiv{
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .logo a{
+            font-size: 35px; font-weight: 600; color: white;
+        } 
+    
+    
+        li a{
+            color: white; font-size: 18px; font-weight: bold; margin-right: 25px; list-style: none; display: inline-block;
+        }
+        .navdiv ul{
+            display: flex; gap: 15px; list-style: none; margin: 15px; padding: 0;
+        }
+
+        body {
+            margin: 0; font-family: sans-serif;
+        }
+        h1, p{
+            margin: 30px 15px;
+        }
+        form{
+            border: 2px solid #4a90e2;
+            padding: 20px;
+            border-radius: 10px;
+            width: fit-content;
+            margin: auto;
+        
+        }
+        .navbar{width: 100%;}
+        footer{width: 100%;}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="#">shirinsokhan</a></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 style="text-align: center; color: forestgreen; font-size: xxx-large;">Let's Connect</h1>
+        <form action="index.html" style="text-align: center;" method="post">
+            <h4>Contact Form:</h4>
+            <label> Full Name:</label>
+            <input type="text" placeholder="Enter your Full Name" required><br><br>
+            <label>Email Address:</label>
+            <input type="email" placeholder="Enter your email address" style="margin-right: 30px;" required><br><br>
+            <label>Massage:</label>
+            <textarea placeholder="Enter your Comment" style="margin-right: 5px;" required ></textarea><br><br>
+            <label for="" style="margin-left: -170px;">Gender:</label><br>
+            <input type="radio" name="Gender:" id="Male" required>
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender:" id="Female" required>
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender:" id="Perfer not to say" required>
+            <label for="Perfer not to say">Perfer not to say</label><br><br>
+            <label style="margin-left: -215px;">Your Interests:</label><br>
+            <input type="checkbox" name="Walking" id="Walking">
+            <label for="Walking">Walking</label>
+            <input type="checkbox" name="Studying" id="Studying">
+            <label for="Studying">Studying</label>
+            <input type="checkbox" name="Sleeping" id="Sleeping">
+            <label for="Sleeping">Sleeping</label><br><br>
+            <input type="submit" required>
+
+
+        </form>
+        <h4 style="text-align: center;">stay connected via email:<br>
+        <a href="mailto:kosarshirinsokhan@gmail.com" style="text-align: center;">kosarshirinsokhan@gmail.com</a></h4>
+    </main>
+    <footer style="background-color: rgb(63, 63, 252); color: white; font-size: 14px; text-align: center; padding: 50px; margin-top: 50px;">
+        crafted with curiosity, love, and a little magic. Thanks for visiting!<br>Stay connected with me!<br><a href="mailto:kosarshirinsokhan@gmail.com" style="color: rgb(3, 8, 80);">email: kosarshirinsokhan@gmail.com</a>
+    </footer>
